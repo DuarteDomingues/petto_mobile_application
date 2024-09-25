@@ -1,0 +1,4 @@
+
+conda create --name myflaskenv python= 3.11.5
+
+conda activate myflaskenv

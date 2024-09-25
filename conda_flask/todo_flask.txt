@@ -1,0 +1,61 @@
+
+
+imagens
+--------
+
+//manda a imagem metadata, ou string nome da imagem
+get_similar_images(num_images)
+
+
+dicionario imagens, [id, imagem]
+
+
+get_cosine_similarities(image_vec, feature_vecs)
+
+obter id imagens
+
+json stringify (id imagens)
+
+return id imagens em json
+
+
+-----------------
+
+recomendacoes questionario
+---------
+
+
+dicionario texto, [id, texto_recomendacao]
+
+
+predict_cluster_rec( texto_recomendacao)
+
+obter mais semelhantes dentro do cluster
+
+retornar id recomendacoes json
+
+
+
+
+
+
+
+1. pasta no pc com imagens, ver como passar a imagem 
+
+2. fazer relacao entre id e imagem
+
+3. meter modelo na base de dados
+
+4. faz o predict e retorna o json da imagem
+
+...
+
+5. no react native buscar a imagem
+
+6. dar load da imagem
+
+
+
+conda create --name myflaskenv python=3.11.5
+
+

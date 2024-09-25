@@ -1,0 +1,24 @@
+To evaluate the effectiveness of the image search mechanism we used the Precision evaluation metric. This metric was calculated as the ratio of correct similar animals to the total number of animals retrieved in the image search. Precision was calculated for 5 examples, each with 9 animals retrieved. The average of these values was obtained to get the overall precision.
+\newline
+
+An animal retrieved in the image search is considered correct if its color and type closely matches those of the animal in the original image.
+\newline
+
+The precision value obtained was \textbf{0.93}. The results obtained to calculate the Precision can be viewed in the \hyperref[ch:simApx]{Image Similarity Results} chapter on the appendix section.
+\newline
+
+Overall, the system effectively retrieves similar animals, though it encounters some challenges when the original image has issues such as blurriness, poor quality, or when the animal is in an uncommon position, like being curled up.
+\newline
+
+
+
+Task 7: Search for a pet by image
+
+2. How satisfied are you with the image search results?
+
+
+https://docs.google.com/forms/d/e/1FAIpQLScIi6Tv45_D04GLRhKe9jDMH93WGTsT2w3iQXgXfCYhKKvpCQ/viewform?usp=sf_link
+
+falar do modelo q usei de hugging face, e a dimensao dos vetores q gera
+
+hugmodel
