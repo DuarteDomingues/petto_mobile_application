@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Petto",
+    "slug": "animal_expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "iospetto"
+    },
+    "android": {
+      "package": "com.anonymous.animal_expo",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBAQx0694dWM98E6sgDSLSK0jUt5L6PU7s"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8c09d757-612c-4f8f-a32b-ddae1d7942dc"
+      }
+    },
+    "owner": "duartedomingues"
+  }
+}
